@@ -1,0 +1,92 @@
+.contenedor-dashboard{
+    border: 1px solid red;
+    position: absolute;
+    padding-left: 250px;
+    padding-top: 70px;
+    top: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    .title{
+        margin: 20px;
+        p{
+            font-size: xx-large;
+            font-weight: 600;
+        }
+    }
+    .container-cardComp{
+        background: rgb(50, 88, 242);
+        background: linear-gradient(90deg, #84D9FE, #A797FF);
+        border-radius: 10px;
+        color: white;
+        margin: 20px;
+        padding: 30PX;    
+        .font-weight-normal{
+            margin: 0px;
+        }
+        .font-weight-light{
+            margin: 0px;
+        }
+        .font-weight-medium{
+            margin: 0px;
+        }
+    }
+    .container-metrics{
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+        text-align: center;
+        padding: 30PX;
+    }
+    .container-detail{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        .d-flex{
+            background-color: white;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 30px;
+            width: 100%;
+        }
+    }
+    .container-columnChart{
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+
+    }
+    .container-activity{        
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        .verti-timeline{
+            border-left: 2px solid #f6f6f6;
+            margin: 0 10px;
+        }
+        .event-list{
+            position: relative;
+            padding: 0px 0px 40px 30px;
+            display: flex;
+            .event-timeline-icon{
+                position: absolute;
+                left: -9px;
+                top: 0px;
+                z-index: 9;
+                font-size: 16px;
+                padding: 1px;
+                background-color: #fff;
+            }
+        }
+    }
+    .ad-container{
+        margin: 20px;
+    }
+    .container-city{
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+    }
+}
